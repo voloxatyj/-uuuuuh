@@ -2,55 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="mine.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-	<!--Подключаем библиотеку-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<nav class="navbar navbar-expand-md fixed-top">
-				<div class="top-menu d-flex">	
-						<div class="logo">	
-							<h1><span style="color:#1298dd;font-weight:bold">Indo</span> Tourism</h1>		
-								<div class="menu">
-									<ul class="nav nav-pills">
-									  <li class="nav-item">
-									    <a class="nav-link" href="#">Home</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link" href="#">About Us</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link" href="#">Projects</a>
-									  </li>
-									  <li class="nav-item">
-									    <a class="nav-link active" style="border-radius: 7px" href="#" tabindex="-1" aria-disabled="true">Contac Us</a>
-									  </li>
-									</ul>
-								</div>	
-							</div>		
-						</div>
-					</nav>
+	<header class="top_header">
+		<div class="container-fluid">	
+			<div class="col-md-12">
+				<div class="row">						
+					   <a id="logo" class="nav-link" href="#"><span>Indo</span> Tourism</a>
+					 <ul id="menu" class="nav nav-pills">
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">About us</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Projects</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link active" href="#"tabindex="-1" aria-disabled="true">Contact Us</a>
+					  </li>
+					</ul>
+					
+				
 				</div>
 			</div>
 		</div>
-	</div> 
-</div>
-	<div class="main">
-		<div class="container-fluid">
-			<div class="answer">
-				<h2 style="color:#fff;font-size: 52px;font-weight: bold">I Like To Ask The Same Question <span><br>Many Many Times</span></h2>
-				<a href="#" class="btn btn-outline-success" role="button">Ok Ask Me</a>
-        	</div>
+	</header>
+	<div class="main">	
+		<div class="container-quest-fluid">				
+			<div class="question">
+				<p><span>I LIKE TO ASK THE SAME QUESTION<span>  <span>MANY MANY TIMES</span></p>		
+			</div>
+			<div class="quest-button">
+				<a  id="button" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Ok ask me</a>
+			</div>
+			<div class="contaner-pictures">
+						<p>Places You Must Visit In Your Lifetime</p>
+					<div class="row" id="images">						
+						<a href="#"><img class="image" src='compresspng/luke-porter-1368034-unsplash-min.png' alt="#1"><span id="word">Azheekal</span></a>					
+						<a href="#"><img src='compresspng/martin-rajdl-1367792-unsplash-min.png' class="image"><span id="word">Ooty</span></a>					
+						<a href="#"><img src='compresspng/nicolas-moscarda-1366559-unsplash-min.png' class="image"><span id="word">Munnar</span></a>					
+						<a href="#"><img src='compresspng/pavel-nekoranec-1366234-unsplash-min.png' class="image"><span id="word">Humpi</span></a>					
+						<a href="#"><img src='compresspng/randy-laybourne-1368684-unsplash-min.png' class="image"><span id="word">Kovalam</span></a>					
+						<a href="#"><img src='compresspng (1)/chuttersnap-1308162-unsplash-min.png' class="image"><span id="word">Kuttanad</span></a>					
+						<a href="#"><img src='compresspng (1)/chuttersnap-1308164-unsplash-min.png' class="image"><span id="word">Thenmala</span></a>					
+						<a href="#"><img src='compresspng (1)/dylan-singh-1308906-unsplash.png' class="image"><span id="word">Beach</span></a>					
+						<a href="#"><img src='compresspng (1)/jonathan-borba-1367441-unsplash.png' class="image"><span id="word">Munnar</span></a>				
+						<a href="#"><img src='compresspng (1)/kevin-laminto-1366066-unsplash.png' class="image"><span id="word">Punaloor</span></a>
+					</div>
+			</div>
 		</div>
-		  	<div class="container-picture">
-		   		 	<h1 class="display-4">Places You Must Visit In Your Lifetime</h1>
-		   		 		<div class="conainer-items">
-	   		 		 
-		 		 	</div>
-				</div>
-		</body>
-	</html>
+	</div>
+</body>
+</html>
